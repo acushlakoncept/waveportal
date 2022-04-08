@@ -198,7 +198,7 @@ export default function Home() {
         </div>
 
         <div className="bio">
-        I am Uduak and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!      
+        I am Uduak and I worked on self-driving cars so that&apos;s pretty cool right? Connect your Ethereum wallet and wave at me!      
         </div>
         <div className="wavesCount">waves - {wavesCount}</div>
 
