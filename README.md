@@ -14,4 +14,8 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 
-> Contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+> Contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3  => local
+
+> Deploying contracts with account:  0xc606533c8921ee6822eDaa345ec833284f904BC8
+> Account balance:  200000000000000000
+> WavePortal address:  0xAD5E22bddD7d7Df1eDFFcB97105035E5BDECA946
