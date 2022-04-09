@@ -2,6 +2,8 @@
 
 WavePortal is place where anyone on the internet can learn a little about who you are and send you a 👋 + a message and have that data saved on the blockchain through an Ethereum smart contract. (A smart contract is basically code that lives on the blockchain you can read and write from, we'll talk about this more in a bit).
 
+[Live](https://mywave-portal.vercel.app/)
+
 ![screenshot](./screenshot.png)
 
 ## Getting Started
