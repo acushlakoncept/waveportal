@@ -1,71 +1,34 @@
-# WavePortal
-
-WavePortal is place where anyone on the internet can learn a little about who you are and send you a 👋 + a message and have that data saved on the blockchain through an Ethereum smart contract. (A smart contract is basically code that lives on the blockchain you can read and write from, we'll talk about this more in a bit).
-
-![screenshot](./screenshot.png)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-cd client
+npm run dev
 # or
 yarn dev
 ```
 
-## Getting Started
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To get a local copy up and running follow these simple example steps.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-### Prerequisites
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-Make sure Node.js is running on your local machine
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### Setup
+## Learn More
 
-~~~bash
-$ git clone git@github.com:acushlakoncept/waveportal.git
-$ cd waveportal
-~~~
+To learn more about Next.js, take a look at the following resources:
 
-Install modules:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-yarn add 
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Setup your API Key for Auth0
+## Deploy on Vercel
 
-- Follow the steps [here](https://auth0.com/docs/quickstart/webapp/nextjs/01-login) to setup your app
-- Locate the file `.env.local.example` in your root directory, remove the .example leaving you with `.env.local`
-- You can find the corresponding fields from your Auth0 dashboard
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Usage
-
-Start server with:
-
-```
-  npm run dev
-```
-
-# Authors
-
-👤 **Uduak Essien**
-
-- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
-- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
-- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-- [Buildspace](https://app.buildspace.so/)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
